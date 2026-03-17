@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "MeuCrud",
-    "slug": "MeuCrud",
+    "name": "crud-pam",
+    "slug": "crud-pam",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
