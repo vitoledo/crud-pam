@@ -25,6 +25,9 @@ export default StyleSheet.create({
   email: {
     fontSize: 10
   },
+  phone: {
+    fontSize: 10
+  },
   button: {
     padding: 10,
     backgroundColor: "#4CAF50",

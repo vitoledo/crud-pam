@@ -3,8 +3,9 @@
     {
       "firstName": "Victor",
       "lastName": "de Toledo",
-      "email": "victor.toledo@gmail.com",
-      "id": "ulX4nCnXmzo"
+      "email": "victor.toledo@email.com",
+      "phone": "1999999999",
+      "id": "-Wi8osjrzNM"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
