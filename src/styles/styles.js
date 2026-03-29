@@ -41,5 +41,13 @@ export default StyleSheet.create({
     paddingHorizontal: 10,
     borderRadius: 5,
     backgroundColor: '#fff'
+  },
+  activityIndicator: {
+    marginTop: 20
+  },
+  error: {
+    color: "red",
+    textAlign: "center",
+    marginTop: 20
   }
 });

@@ -13,6 +13,20 @@
       "email": "manuela.marquez@email.com",
       "phone": "19999999999",
       "id": "vYixvMHRIM8"
+    },
+    {
+      "firstName": "Carolina",
+      "lastName": "Silva",
+      "email": "carolina.silva@email.com",
+      "phone": "1999999999",
+      "id": "VRVKljl3XPY"
+    },
+    {
+      "firstName": "Nilson",
+      "lastName": "Rodrigues",
+      "email": "nilson.rodrigues@email.com",
+      "phone": "1999999999",
+      "id": "DcdY2q8LvAs"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"

@@ -7,15 +7,16 @@
     "start:expo:android": "expo start --android",
     "start:expo:ios": "expo start --ios",
     "start:expo:web": "expo start --web",
-    "start:json": "json-server --watch database.json --port 3000"
+    "start:json": "json-server --watch database.json --port 3000",
+    "tunnel": "cloudflared tunnel --url http://localhost:3000"
   },
   "dependencies": {
     "@react-navigation/native": "^7.1.33",
     "@react-navigation/native-stack": "^7.14.5",
+    "cloudflared": "^0.7.1",
     "expo": "~55.0.6",
     "expo-status-bar": "~55.0.4",
     "json-server": "1.0.0-beta.15",
-    "localtunnel": "^2.0.2",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-native": "0.83.2",

@@ -14,6 +14,9 @@ importers:
       '@react-navigation/native-stack':
         specifier: ^7.14.5
         version: 7.14.7(@react-navigation/native@7.2.0(react-native@0.83.2(@babel/core@7.29.0)(react@19.2.0))(react@19.2.0))(react-native-safe-area-context@5.7.0(react-native@0.83.2(@babel/core@7.29.0)(react@19.2.0))(react@19.2.0))(react-native-screens@4.24.0(react-native@0.83.2(@babel/core@7.29.0)(react@19.2.0))(react@19.2.0))(react-native@0.83.2(@babel/core@7.29.0)(react@19.2.0))(react@19.2.0)
+      cloudflared:
+        specifier: ^0.7.1
+        version: 0.7.1
       expo:
         specifier: ~55.0.6
         version: 55.0.8(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@19.2.0(react@19.2.0))(react-native@0.83.2(@babel/core@7.29.0)(react@19.2.0))(react@19.2.0)
@@ -1238,6 +1241,10 @@ packages:
   clone@1.0.4:
     resolution: {integrity: sha512-JQHZ2QMW6l3aH/j6xCqQThY/9OH4D/9ls34cgkUBiEeocRTU04tHfKPBsUK1PqZCUQM7GiA0IIXJSuXHI64Kbg==}
     engines: {node: '>=0.8'}
+
+  cloudflared@0.7.1:
+    resolution: {integrity: sha512-jJn1Gu9Tf4qnIu8tfiHZ25Hs8rNcRYSVf8zAd97wvYdOCzftm1CTs1S/RPhijjGi8gUT1p9yzfDi9zYlU/0RwA==}
+    hasBin: true
 
   color-convert@1.9.3:
     resolution: {integrity: sha512-QfAUtd+vFdAtFQcC8CCyYt1fYWxSqAiK2cSD6zDB8N3cpsEBAvRxp9zOGg6G/SHHJYAT88/az/IuDGALsNVbGg==}
@@ -4458,6 +4465,8 @@ snapshots:
       wrap-ansi: 7.0.0
 
   clone@1.0.4: {}
+
+  cloudflared@0.7.1: {}
 
   color-convert@1.9.3:
     dependencies:
