@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, FlatList, Button } from "react-native";
+import { View, Text, FlatList, Button, TextInput } from "react-native";
 import styles from "../styles/styles";
 import { getPeople, deletePerson } from "../servers/peopleCrud";
 
@@ -24,6 +24,7 @@ function CardPersonal({item, navigation, refresh}) {
 
 export default function HomeScreen({ navigation }) {
   const [people, setPeople] = useState([]);
+  const [search, setSearch] = useState("");
 
   async function loadPeople(){
     const data = await getPeople();
@@ -34,12 +35,23 @@ export default function HomeScreen({ navigation }) {
     loadPeople();
   }, []);
 
+  const filteredPeople = people.filter((person) => 
+  (person.firstName || "").toLowerCase().includes(search.toLowerCase()) || 
+  (person.lastName || "").toLowerCase().includes(search.toLowerCase())
+  );
+
   return(
     <View style={styles.container}>
       <Text style={styles.title}>Pessoas</Text>
+      <TextInput
+        style={styles.input}
+        placeholder="Buscar"
+        value={search}
+        onChangeText={(text)=>setSearch(text)}
+      />
       <Button title="Adicionar Pessoa" onPress={() => navigation.navigate("AddEdit")} />
       <FlatList 
-        data={people} 
+        data={filteredPeople} 
         keyExtractor={(item)=>item.id.toString()} 
         renderItem={({item})=>(
           <CardPersonal item={item} navigation={navigation} refresh={loadPeople} />

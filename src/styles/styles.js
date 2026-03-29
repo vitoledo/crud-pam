@@ -32,5 +32,14 @@ export default StyleSheet.create({
     padding: 10,
     backgroundColor: "#4CAF50",
     borderRadius: 5
+  },
+  input: {
+    height: 40,
+    borderColor: 'gray',
+    borderWidth: 1,
+    marginBottom: 10,
+    paddingHorizontal: 10,
+    borderRadius: 5,
+    backgroundColor: '#fff'
   }
 });

@@ -20,6 +20,11 @@ export default function AddEditScreen({ route, navigation }) {
     navigation.goBack()
   }
 
+  const handlePress = () => {
+    save();
+    navigation.goBack();
+  };
+
   return (
     <View style={styles.container}>
       <TextInput
@@ -44,7 +49,7 @@ export default function AddEditScreen({ route, navigation }) {
         onChangeText={setEmail}
       />
 
-      <Button title="Salvar" onPress={save} />
+      <Button title="Salvar" onPress={handlePress}  />
       <Button title="Cancelar" onPress={() => navigation.goBack()} />
     </View>
   )
