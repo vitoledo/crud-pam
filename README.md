@@ -5,6 +5,12 @@ Este projeto é um aplicativo mobile desenvolvido com React Native e Expo para o
 
 Ele foi desenvolvido como parte do **"The Code Challenge - Desafio de Programação"**, visando estimular a autonomia, prática mobile e resolução de problemas. O projeto implementa todos os níveis rigorosamente propostos, tornando-se uma aplicação completa, robusta e tolerante a falhas (atingindo requisitos desde a avaliação básica até a avançada).
 
+### 🎥 Preview do Aplicativo
+
+<div align="center">
+  <video src="./video-funcionamento.mp4" width="300" controls="controls"></video>
+</div>
+
 ## Tecnologias utilizadas
 - **React Native / Expo**: Core do desenvolvimento mobile multiplataforma.
 - **React Navigation**: Gerenciamento do fluxo de telas e roteamento.

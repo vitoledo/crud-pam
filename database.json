@@ -1,13 +1,6 @@
 {
   "people": [
     {
-      "firstName": "Victor",
-      "lastName": "de Toledo",
-      "email": "victor.toledo@email.com",
-      "phone": "1999999999",
-      "id": "-Wi8osjrzNM"
-    },
-    {
       "firstName": "Manuela",
       "lastName": "Marquez",
       "email": "manuela.marquez@email.com",
@@ -27,6 +20,13 @@
       "email": "nilson.rodrigues@email.com",
       "phone": "1999999999",
       "id": "DcdY2q8LvAs"
+    },
+    {
+      "firstName": "Leonardo",
+      "lastName": "Silva",
+      "email": "leonardo.silva@email.com",
+      "phone": "1999999999",
+      "id": "9fP1PzjNd8o"
     }
   ],
   "$schema": "./node_modules/json-server/schema.json"
