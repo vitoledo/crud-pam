@@ -7,9 +7,7 @@ Ele foi desenvolvido como parte do **"The Code Challenge - Desafio de Programaç
 
 ### 🎥 Preview do Aplicativo
 
-<div align="center">
-  <video src="./video-funcionamento.mp4" width="300" controls="controls"></video>
-</div>
+[**Clique aqui para assistir ao vídeo de demonstração do projeto**](./video-funcionamento.mp4)
 
 ## Tecnologias utilizadas
 - **React Native / Expo**: Core do desenvolvimento mobile multiplataforma.
